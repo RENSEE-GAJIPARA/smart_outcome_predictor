@@ -1,9 +1,14 @@
-<div align="center">
+<p align="center">
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&color=0%3A4338CA%2C50%3A7C3AED%2C100%3A06B6D4&height=200&section=header&text=Smart%20Outcome%20Predictor&fontSize=42&fontColor=FFFFFF&animation=fadeIn&fontAlign=50&fontAlignY=50"
+    width="100%"
+    alt="Smart Outcome Predictor"
+  />
+</p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4C78A8,100:7b5ea7&height=230&section=header&text=Smart%20Outcome%20Predictor&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Ensemble%20Learning%20for%20Course%20Completion%20%26%20Final%20Score%20Prediction&descSize=17&descAlignY=60&animation=fadeIn" width="100%" alt="Smart Outcome Predictor banner"/>
-
+<p align="center">
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3200&pause=900&color=4C78A8&center=true&vCenter=true&width=720&lines=Will+the+student+complete+the+course%3F;What+will+the+final+score+be%3F;Bagging+%7C+Boosting+%7C+Voting+%7C+Stacking;Predict+early.+Support+sooner." alt="Typing SVG"/></a>
-
+</p>
 <br/>
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
