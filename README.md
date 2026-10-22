@@ -94,7 +94,7 @@ streamlit run app.py
 
 <div align="center">
 
-[![Open Streamlit App](https://img.shields.io/badge/🚀%20Open-Live%20Streamlit%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://YOUR-APP-NAME.streamlit.app)
+[![Open Streamlit App](https://img.shields.io/badge/🚀%20Open-Live%20Streamlit%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://smartoutcomepredictor.streamlit.app/)
 
 </div>
 
