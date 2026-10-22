@@ -55,24 +55,32 @@ Seven model families are compared (Decision Tree baseline, Bagging, AdaBoost, XG
 
 ### Demo Video
 
+```html
 <div align="center">
 
-<a href="https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=sharing">
-  <img src="https://img.shields.io/badge/▶%20Watch-Demo%20Video%20on%20Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" alt="Watch demo on Google Drive"/>
+<!-- Watch Demo Video -->
+<a href="https://drive.google.com/drive/u/0/folders/1ILVfmHnmr5SXGfvVLYLahbaGvw6ZrIKN" target="_blank">
+  <img src="https://img.shields.io/badge/▶%20Watch-Demo%20Video%20on%20Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white"
+       alt="Watch Demo Video on Google Drive"/>
 </a>
 
 <br/><br/>
 
-<!-- Optional: click-to-play preview image. Save a screenshot of the app as Images/demo_thumbnail.png, then uncomment: -->
+<!-- Optional: Clickable Video Thumbnail -->
 <!--
-<a href="https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=sharing">
-  <img src="Images/demo_thumbnail.png" width="80%" alt="Click to watch the demo video"/>
+<a href="https://drive.google.com/drive/u/0/folders/1ILVfmHnmr5SXGfvVLYLahbaGvw6ZrIKN" target="_blank">
+  <img src="Images/demo_thumbnail.png"
+       width="80%"
+       alt="Click to watch the demo video"/>
 </a>
 -->
 
-<sub>Opens in Google Drive. Make sure sharing is set to <b>"Anyone with the link → Viewer"</b>.</sub>
+<sub>Click the button to watch the full demo on Google Drive.</sub>
+<br/>
 
 </div>
+```
+
 
 ### App Features
 
