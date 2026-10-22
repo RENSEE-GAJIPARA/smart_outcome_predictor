@@ -1,0 +1,8 @@
+Model,MAE,RMSE,R2,Train_R2
+Stacking Regressor,8.0344,9.9942,0.4513,0.5127
+XGBoost Regressor,8.2026,10.2063,0.4278,0.6738
+Bagging Regressor,8.3061,10.2951,0.4178,0.9246
+Bagging Regressor,8.3061,10.2951,0.4178,0.9246
+AdaBoost Regressor,8.4908,10.4112,0.4046,0.4949
+Decision Tree,11.1783,14.1096,-0.0936,1.0
+Decision Tree,11.1783,14.1096,-0.0936,1.0

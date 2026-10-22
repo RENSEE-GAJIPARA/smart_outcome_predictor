@@ -1,0 +1,10 @@
+Model,Accuracy,Precision,Recall,F1,AUC,Train_Acc
+Stacking Classifier,0.7394,0.682,0.5718,0.622,0.7931,0.7411
+AdaBoost Classifier,0.7317,0.6762,0.5462,0.6043,0.7876,0.7377
+Soft Voting,0.7394,0.6951,0.5436,0.6101,0.7816,0.7683
+XGBoost Classifier,0.7317,0.6618,0.5821,0.6194,0.7787,0.8358
+Bagging Classifier,0.7058,0.6193,0.559,0.5876,0.7584,1.0
+Bagging Classifier,0.7058,0.6193,0.559,0.5876,0.7584,1.0
+Hard Voting,0.7346,0.7065,0.5,0.5856,0.6877,0.7627
+Decision Tree,0.6173,0.4903,0.5205,0.505,0.5979,1.0
+Decision Tree,0.6173,0.4903,0.5205,0.505,0.5979,1.0

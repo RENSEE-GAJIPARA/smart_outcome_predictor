@@ -1,0 +1,270 @@
+{
+    "classifier": "Stacking Classifier",
+    "regressor": "Stacking Regressor",
+    "classification_metrics": {
+        "Accuracy": 0.7394,
+        "Precision": 0.682,
+        "Recall": 0.5718,
+        "F1": 0.622,
+        "AUC": 0.7931
+    },
+    "regression_metrics": {
+        "MAE": 8.0344,
+        "RMSE": 9.9942,
+        "R2": 0.4513
+    },
+    "features": [
+        "age",
+        "country_region",
+        "device_type",
+        "education_background",
+        "course_level",
+        "course_category",
+        "week_of_year",
+        "sessions",
+        "time_spent_hours",
+        "videos_watched",
+        "quiz_attempts",
+        "assignments_submitted",
+        "forum_posts",
+        "avg_quiz_score",
+        "attendance_rate"
+    ],
+    "num": [
+        "age",
+        "week_of_year",
+        "sessions",
+        "time_spent_hours",
+        "videos_watched",
+        "quiz_attempts",
+        "assignments_submitted",
+        "forum_posts",
+        "avg_quiz_score",
+        "attendance_rate"
+    ],
+    "cat": [
+        "country_region",
+        "device_type",
+        "education_background",
+        "course_level",
+        "course_category"
+    ],
+    "cat_options": {
+        "country_region": [
+            "Africa",
+            "Americas",
+            "Asia",
+            "Europe",
+            "Oceania"
+        ],
+        "device_type": [
+            "Laptop",
+            "Mobile",
+            "Tablet"
+        ],
+        "education_background": [
+            "Graduate",
+            "HighSchool",
+            "Undergrad",
+            "WorkingPro"
+        ],
+        "course_level": [
+            "Advanced",
+            "Beginner",
+            "Intermediate"
+        ],
+        "course_category": [
+            "Business",
+            "Data",
+            "Design",
+            "Marketing",
+            "Programming"
+        ]
+    },
+    "num_ranges": {
+        "age": [
+            16.0,
+            45.0,
+            24.0
+        ],
+        "week_of_year": [
+            1.0,
+            52.0,
+            27.0
+        ],
+        "sessions": [
+            1.0,
+            94.0,
+            17.0
+        ],
+        "time_spent_hours": [
+            0.6,
+            76.8,
+            16.1
+        ],
+        "videos_watched": [
+            0.0,
+            158.0,
+            23.0
+        ],
+        "quiz_attempts": [
+            0.0,
+            20.0,
+            7.0
+        ],
+        "assignments_submitted": [
+            0.0,
+            12.0,
+            4.0
+        ],
+        "forum_posts": [
+            0.0,
+            8.0,
+            1.0
+        ],
+        "avg_quiz_score": [
+            0.0,
+            100.0,
+            66.9
+        ],
+        "attendance_rate": [
+            0.313,
+            1.0,
+            0.855
+        ]
+    },
+    "all_classification": [
+        {
+            "Model": "Stacking Classifier",
+            "Accuracy": 0.7394,
+            "Precision": 0.682,
+            "Recall": 0.5718,
+            "F1": 0.622,
+            "AUC": 0.7931,
+            "Train_Acc": 0.7411
+        },
+        {
+            "Model": "AdaBoost Classifier",
+            "Accuracy": 0.7317,
+            "Precision": 0.6762,
+            "Recall": 0.5462,
+            "F1": 0.6043,
+            "AUC": 0.7876,
+            "Train_Acc": 0.7377
+        },
+        {
+            "Model": "Soft Voting",
+            "Accuracy": 0.7394,
+            "Precision": 0.6951,
+            "Recall": 0.5436,
+            "F1": 0.6101,
+            "AUC": 0.7816,
+            "Train_Acc": 0.7683
+        },
+        {
+            "Model": "XGBoost Classifier",
+            "Accuracy": 0.7317,
+            "Precision": 0.6618,
+            "Recall": 0.5821,
+            "F1": 0.6194,
+            "AUC": 0.7787,
+            "Train_Acc": 0.8358
+        },
+        {
+            "Model": "Bagging Classifier",
+            "Accuracy": 0.7058,
+            "Precision": 0.6193,
+            "Recall": 0.559,
+            "F1": 0.5876,
+            "AUC": 0.7584,
+            "Train_Acc": 1.0
+        },
+        {
+            "Model": "Bagging Classifier",
+            "Accuracy": 0.7058,
+            "Precision": 0.6193,
+            "Recall": 0.559,
+            "F1": 0.5876,
+            "AUC": 0.7584,
+            "Train_Acc": 1.0
+        },
+        {
+            "Model": "Hard Voting",
+            "Accuracy": 0.7346,
+            "Precision": 0.7065,
+            "Recall": 0.5,
+            "F1": 0.5856,
+            "AUC": 0.6877,
+            "Train_Acc": 0.7627
+        },
+        {
+            "Model": "Decision Tree",
+            "Accuracy": 0.6173,
+            "Precision": 0.4903,
+            "Recall": 0.5205,
+            "F1": 0.505,
+            "AUC": 0.5979,
+            "Train_Acc": 1.0
+        },
+        {
+            "Model": "Decision Tree",
+            "Accuracy": 0.6173,
+            "Precision": 0.4903,
+            "Recall": 0.5205,
+            "F1": 0.505,
+            "AUC": 0.5979,
+            "Train_Acc": 1.0
+        }
+    ],
+    "all_regression": [
+        {
+            "Model": "Stacking Regressor",
+            "MAE": 8.0344,
+            "RMSE": 9.9942,
+            "R2": 0.4513,
+            "Train_R2": 0.5127
+        },
+        {
+            "Model": "XGBoost Regressor",
+            "MAE": 8.2026,
+            "RMSE": 10.2063,
+            "R2": 0.4278,
+            "Train_R2": 0.6738
+        },
+        {
+            "Model": "Bagging Regressor",
+            "MAE": 8.3061,
+            "RMSE": 10.2951,
+            "R2": 0.4178,
+            "Train_R2": 0.9246
+        },
+        {
+            "Model": "Bagging Regressor",
+            "MAE": 8.3061,
+            "RMSE": 10.2951,
+            "R2": 0.4178,
+            "Train_R2": 0.9246
+        },
+        {
+            "Model": "AdaBoost Regressor",
+            "MAE": 8.4908,
+            "RMSE": 10.4112,
+            "R2": 0.4046,
+            "Train_R2": 0.4949
+        },
+        {
+            "Model": "Decision Tree",
+            "MAE": 11.1783,
+            "RMSE": 14.1096,
+            "R2": -0.0936,
+            "Train_R2": 1.0
+        },
+        {
+            "Model": "Decision Tree",
+            "MAE": 11.1783,
+            "RMSE": 14.1096,
+            "R2": -0.0936,
+            "Train_R2": 1.0
+        }
+    ]
+}
